@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+nav{
+  background-color: rgb(44, 26, 44);
+  color: white;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+button{
+  background-color: rgb(34, 71, 58);
+  color: white;
+  border: none;
+  padding: 10px 30px;
+}
+.dark{
+  background-color: black;
+  color: white;
+
+}
+.light{
+  color: black;
+  background-color: white;
+
+}
+img{
+  width: 100%;
+  height: 100%;
+  display: block;
+
+}
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(3,300px);
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+}
